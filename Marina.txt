@@ -1,0 +1,597 @@
+Today's date and time is printed.
+ 
+Sun Apr 25 19:15:13 UTC 2021
+ 
+ 
+The system's host name is displayed.
+ 
+ip-172-31-87-57
+ 
+ 
+Machine hardware name is printed.
+ 
+x86_64
+ 
+ 
+All information about machine is shown.
+ 
+Linux ip-172-31-87-57 5.4.0-1038-aws #40-Ubuntu SMP Fri Feb 5 23:50:40 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+ 
+ 
+It is displayed how long the system has been running.
+ 
+ 19:15:13 up 41 days, 21:52,  6 users,  load average: 0.00, 0.00, 0.00
+ 
+ 
+It is displayed current users name in the output.
+ 
+marinanikonchuk
+ 
+ 
+It is displayed everyone who are logged in.
+ 
+charlottemcloughlin pts/0        2021-04-25 17:38 (86.44.33.208)
+marinanikonchuk pts/1        2021-04-25 19:07 (45.139.74.30)
+gracemetadjer pts/3        2021-04-25 19:01 (51.37.48.210)
+patrickoneill pts/6        2021-04-25 15:22 (109.79.109.42)
+janaholikova pts/7        2021-04-21 11:13 (37.228.249.69)
+patrickoneill pts/8        2021-04-25 18:34 (109.79.109.42)
+ 
+ 
+It is displayed information of any current logged in users from the terminal.
+ 
+Login                Name       Tty      Idle  Login Time   Office     Office Phone
+charlottemcloughlin             pts/0    1:22  Apr 25 17:38 (86.44.33.208)
+gracemetadjer                   pts/3          Apr 25 19:01 (51.37.48.210)
+janaholikova                    pts/7      2d  Apr 21 11:13 (37.228.249.69)
+marinanikonchuk                 pts/1          Apr 25 19:07 (45.139.74.30)
+patrickoneill                   pts/6      51  Apr 25 15:22 (109.79.109.42)
+patrickoneill                   pts/8          Apr 25 18:34 (109.79.109.42)
+ 
+ 
+It is displayed who is logged on, since when and what they are doing.
+ 
+ 19:15:13 up 41 days, 21:52,  6 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+charlott pts/0    86.44.33.208     17:38    1:22m  0.05s  0.01s vi mathtables.sh
+marinani pts/1    45.139.74.30     19:07    0.00s  0.03s  0.00s w
+gracemet pts/3    51.37.48.210     19:01    1.00s  0.30s  0.27s vi
+patricko pts/6    109.79.109.42    15:22   51:53   0.09s  0.09s -bash
+janaholi pts/7    37.228.249.69    Wed11    2days  0.13s  0.02s vi hello.sh
+patricko pts/8    109.79.109.42    18:34   37.00s  0.03s  0.03s -bash
+ 
+ 
+It is displayed a list of processes or threads currently being managed by the Linux kernel
+ 
+[?1h=[?25l[H[2J(B[mtop - 19:15:13 up 41 days, 21:52,  6 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 140 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 139 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  6.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m    978.6 (B[m[39;49mtotal,(B[m[39;49m[1m     82.8 (B[m[39;49mfree,(B[m[39;49m[1m    280.2 (B[m[39;49mused,(B[m[39;49m[1m    615.6 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m    517.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
+(B[m      1 root      20   0  170944  11328   6668 S   0.0   1.1   4:27.74 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0.0   0.0   2:06.15 ksoftir+ (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   1:59.64 rcu_sch+ (B[m[39;49m[K
+(B[m     12 root      rt   0       0      0      0 S   0.0   0.0   0:18.52 migrati+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0  (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+ (B[m[39;49m[K
+(B[m     15 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd  (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 xenbus   (B[m[39;49m[K
+(B[m     19 root      20   0       0      0      0 S   0.0   0.0   0:00.01 xenwatch (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0.0   0.0   0:01.09 khungta+ (B[m[39;49m[K[H(B[mtop - 19:15:16 up 41 days, 21:52,  6 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 139 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 138 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.7 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m    978.6 (B[m[39;49mtotal,(B[m[39;49m[1m     82.9 (B[m[39;49mfree,(B[m[39;49m[1m    280.2 (B[m[39;49mused,(B[m[39;49m[1m    615.6 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m    517.9 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 838257 angelrua  20   0   11216   4156   3460 S   0.3   0.4  29:51.58 top      (B[m[39;49m[K
+(B[m1209392 paulobo+  20   0   11240   4076   3380 S   0.3   0.4  23:22.23 top      (B[m[39;49m[K
+(B[m1247188 jamesly+  20   0   11236   4008   3316 S   0.3   0.4  22:43.92 top      (B[m[39;49m[K
+(B[m2246355 root      20   0   13204   7976   6880 S   0.3   0.8   0:00.01 sshd     (B[m[39;49m[K
+(B[m      1 root      20   0  170944  11328   6668 S   0.0   1.1   4:27.74 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0.0   0.0   2:06.15 ksoftir+ (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   1:59.64 rcu_sch+ (B[m[39;49m[K
+(B[m     12 root      rt   0       0      0      0 S   0.0   0.0   0:18.52 migrati+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0  (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+ (B[m[39;49m[K
+(B[m     15 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K[H(B[mtop - 19:15:19 up 41 days, 21:52,  5 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 145 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 144 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  1.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m    978.6 (B[m[39;49mtotal,(B[m[39;49m[1m     85.1 (B[m[39;49mfree,(B[m[39;49m[1m    278.0 (B[m[39;49mused,(B[m[39;49m[1m    615.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m    520.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m    192 root      20   0   18964   4372   2920 S   0.3   0.4   0:37.42 systemd+ (B[m[39;49m[K
+(B[m    465 syslog    20   0  224500   4864   3284 S   0.3   0.5   4:27.71 rsyslogd (B[m[39;49m[K
+(B[m 838599 angelrua  20   0   11216   4044   3348 S   0.3   0.4  29:57.21 top      (B[m[39;49m[K
+(B[m      1 root      20   0  170944  11328   6668 S   0.0   1.1   4:27.74 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0.0   0.0   2:06.15 ksoftir+ (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   1:59.64 rcu_sch+ (B[m[39;49m[K
+(B[m     12 root      rt   0       0      0      0 S   0.0   0.0   0:18.52 migrati+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0  (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+ (B[m[39;49m[K
+(B[m     15 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd  (B[m[39;49m[K[H(B[mtop - 19:15:22 up 41 days, 21:52,  5 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 143 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 142 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  1.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m    978.6 (B[m[39;49mtotal,(B[m[39;49m[1m     85.7 (B[m[39;49mfree,(B[m[39;49m[1m    277.5 (B[m[39;49mused,(B[m[39;49m[1m    615.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m    520.6 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m    443 root      20   0  241636   6184   4468 S   0.7   0.6   7:56.02 account+ (B[m[39;49m[K
+(B[m 838257 angelrua  20   0   11216   4156   3460 S   0.3   0.4  29:51.59 top      (B[m[39;49m[K
+(B[m2240971 root      20   0       0      0      0 I   0.3   0.0   0:01.66 kworker+ (B[m[39;49m[K
+(B[m[1m2246367 marinan+  20   0   11000   3864   3220 R   0.3   0.4   0:00.01 top      (B[m[39;49m[K
+(B[m      1 root      20   0  170944  11328   6668 S   0.0   1.1   4:27.74 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0.0   0.0   2:06.15 ksoftir+ (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   1:59.64 rcu_sch+ (B[m[39;49m[K
+(B[m     12 root      rt   0       0      0      0 S   0.0   0.0   0:18.52 migrati+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0  (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+ (B[m[39;49m[K
+(B[m     15 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K[H(B[mtop - 19:15:26 up 41 days, 21:52,  5 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 135 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 134 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.7 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m    978.6 (B[m[39;49mtotal,(B[m[39;49m[1m     91.3 (B[m[39;49mfree,(B[m[39;49m[1m    271.8 (B[m[39;49mused,(B[m[39;49m[1m    615.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m    526.3 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m    159 root      19  -1  218108  85044  83228 S   0.3   8.5  26:50.65 systemd+ (B[m[39;49m[K
+(B[m 838257 angelrua  20   0   11216   4156   3460 S   0.3   0.4  29:51.60 top      (B[m[39;49m[K
+(B[m1247188 jamesly+  20   0   11236   4008   3316 S   0.3   0.4  22:43.93 top      (B[m[39;49m[K
+(B[m      1 root      20   0  170944  11328   6668 S   0.0   1.1   4:27.74 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp   (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+ (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0.0   0.0   2:06.15 ksoftir+ (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   1:59.64 rcu_sch+ (B[m[39;49m[K
+(B[m     12 root      rt   0       0      0      0 S   0.0   0.0   0:18.52 migrati+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0  (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+ (B[m[39;49m[K
+(B[m     15 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns    (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd  (B[m[39;49m[K[?1l>[25;1H
+[?12l[?25h[K 
+ 
+It is displayed the history of all commands which were typed in terminal.
+ 
+    1  pwd
+    2  p
+    3  cp
+    4  uuu
+    5  u
+    6  pwdwwwpwd
+    7  pwd
+    8  ls
+    9  i
+   10  v
+   11  u
+   12  dw uuu
+   13  :q!
+   14  clear
+   15  i
+   16  p
+   17  mode
+   18  man
+   19  man man
+   20  clear
+   21  { date hostname; arch; uptime }; { ls ; date; pwd; }; ls; (ls pwd);  u pwd; echo pwd; :q :q!; :q! echo; :x; man; clear
+   22  history
+   23  tree
+   24  i
+   25  gthjkul.,vccdfrwwrqWR
+   26  VIM MIESHA.TXT
+   27  $ vim miesha.txt
+   28  vim miesha.txt
+   29  ZZ
+   30  :e homework.docx
+   31  cal
+   32  vi miesha.txt
+   33  logout
+   34  #1618966960
+   35  clear
+   36  #1618966985
+   37  echo hello world
+   38  #1618967011
+   39  passwd
+   40  tree
+   41  table.sh
+   42  < table.sh
+   43  > table.sh
+   44  nano table.sh
+   45  table.sh
+   46  run table.sh
+   47  table.sh > me.txt
+   48  nano table.sh
+   49  sh table.sh
+   50  nano script.sh
+   51  nano table.sh
+   52  sh table.sh
+   53  nano table.sh
+   54  sh table.sh
+   55  nano
+   56  nano table.sh
+   57  sh table.sh
+   58  nano  table.sh
+   59  echo 3+5
+   60  echo '3+5'
+   61  echo '3+5' | bc
+   62  echo '15 / 2' | bc
+   63  echo '12/5' | bc -l
+   64  echo 12/5 | bc -l
+   65  nano table.sh
+   66  sh table.sh
+   67  ls -l temp
+   68  tree
+   69  ls -l .
+   70  num $op $j ] | bc -l"
+   71    echo " " 
+   72  done
+   73  output
+   74  logout
+   75  top
+   76  top -10
+   77  man top
+   78  top -n 10
+   79  top -n 3
+   80  top -n 5
+   81  echo top -n 5 > novscript.sh
+   82  sh novscript.sh
+   83  echo history >> novscript.sh
+   84  sh novscript.sh
+   85  history
+   86  novscript.sh: 2: history: not found
+   87  echo history -a >> novscript.sh
+   88  sh novscript.sh
+   89  history -a
+   90  sh novscript.sh
+   91  history -a
+   92  nano script.sh
+   93  sh script.sh >scriptfile.txt
+   94  pico scriptfile.txt
+   95  nano novscript.sh
+   96  sh novscript.sh >novscript.txt
+   97  pico novscript.txt
+   98  nano novscript.sh
+   99  sh novscript.sh>>novscript.txt
+  100  pico ovscript.txt
+  101  pico novcript.txt
+  102  pico novscript.txt
+  103  sh novscript.sh
+  104  pico novcript.txt
+  105  pico novscript.txt
+  106  echo $HISTFILE
+  107  /home/marinanikonchuk/.bash_history
+  108  echo history -a
+  109  history-a
+  110  history -a
+  111  history -a
+  112  sh novscript.sh
+  113  nano novscript.sh
+  114  sh novscript.sh > novscript.txt
+  115  pico novscript.txt
+  116  sh novscript.sh >> novscript.tst
+  117  pico novscript.tst
+  118  sh novscript.sh >> novscript.txt
+  119  pico novscript.txt
+  120  man history
+  121  ~/.history
+  122  set -H
+  123  history -a
+  124  echo " "
+  125  echo " "
+  126  history
+  127  echo " "
+  128  history -a
+  129  history -a
+  130  echo " "
+  131  set -H
+  132  history
+  133  echo " "
+  134  history
+  135  echo " "
+  136  echo " "
+  137  echo " "
+  138  history
+  139  echo " "
+  140  history -a
+  141  history -a
+  142  echo " "
+  143  set -H
+  144  history
+  145  echo " "
+  146  clear
+  147  echo " "
+  148  echo " "
+  149  history
+  150  echo " "
+  151  history -a
+  152  history -a
+  153  echo " "
+  154  set -H
+  155  history
+  156  echo " "
+  157  echo " "
+  158  echo " "
+  159  cal 2000
+  160  echo " "
+  161  echo " "
+  162  set -H
+  163  history
+  164  echo " "
+  165  echo " "
+  166  echo " "
+  167  cal 2000
+  168  echo " "
+  169  echo " "
+  170  set -H
+  171  history
+  172  echo " "
+  173  history -w vi ~/.bash_history -r
+  174  echo " "
+  175  echo " "
+  176  cal 2000
+  177  echo " "
+  178  echo " "
+  179  set -H
+  180  history
+  181  echo " "
+  182  history -w vi ~/.bash_history -r
+  183  echo " "
+  184  echo " "
+  185  cal 2000
+  186  echo " "
+  187  echo " "
+  188  set -H
+  189  echo " "
+  190  history -w vi ~/.bash_history  history -r
+  191  echo " "
+  192  echo " "
+  193  cal 2000
+  194  echo " "
+  195  echo " "
+  196  history
+  197  echo " "
+  198  history -w vi ~/.bash_history  history -r
+  199  echo " "
+  200  cal 2000
+  201  echo " "
+  202  echo " "
+  203  history -d 1 197
+  204  echo " "
+  205  cal 2000
+  206  echo " "
+  207  history
+  208  echo " "
+  209  history -d 1 197
+  210  echo " "
+  211  echo " "
+  212  cal 2000
+  213  echo " "
+  214  date
+  215  echo " "
+  216  history 
+  217  echo " "
+  218  echo " "
+  219  cal 2000
+  220  echo " "
+  221  date
+  222  echo " "
+  223  histdeln 150 
+  224  echo " "
+  225  echo " "
+  226  cal 2000
+  227  echo " "
+  228  date
+  229  echo " "
+  230  history
+  231  echo " "
+  232  echo " "
+  233  cal 2000
+  234  echo " "
+  235  date
+  236  echo " "
+  237  histdel
+  238  echo " "
+  239  echo " "
+  240  cal 2000
+  241  echo " "
+  242  date
+  243  history
+  244  echo " "
+  245  histdel
+  246  echo " "
+  247  echo " "
+  248  cal 2000
+  249  echo " "
+  250  date
+  251  echo " "
+  252  histdel $(($n - $1)) $(($n - 1))
+  253  echo " "
+  254  echo " "
+  255  cal 2000
+  256  echo " "
+  257  date
+  258  echo " "
+  259  histdeln 200
+  260  echo " "
+  261  echo " "
+  262  cal 2000
+  263  echo " "
+  264  date
+  265  echo " "
+  266  history
+  267  echo " "
+  268  echo " "
+  269  cal 2000
+  270  echo " "
+  271  date
+  272  echo " "
+  273  $ for line in $(seq 1 270) ; do history -d 1; done
+  274  echo " "
+  275  echo " "
+  276  cal 2000
+  277  echo " "
+  278  date
+  279  history
+  280  echo " "
+  281  $ for line in $(seq 1 270) ; do history -d 1; done
+  282  echo " "
+  283  echo " "
+  284  cal 2000
+  285  echo " "
+  286  date
+  287  $ history -cw
+  288  echo " "
+  289  echo " "
+  290  echo " "
+  291  history
+  292  echo " "
+  293  history
+  294  echo " "
+  295  history | grep git
+  296  echo " "
+  297  echo " "
+  298  cal 2000
+  299  echo " "
+  300  date
+  301  history
+  302  echo " "
+  303  history | grep git
+  304  echo " "
+  305  echo " "
+  306  cal 2000
+  307  echo " "
+  308  date
+  309  history
+  310  echo " "
+  311  bash novscript.sh
+  312  pico novscript.sh
+  313  bash novscript.sh
+  314  sh.novscript.sh >>novscript.txt
+  315  sh novscript.sh >>novscript.txt
+  316  Illegal option -o history
+  317  history
+  318  pico novscript.sh
+  319  bash novscript.sh
+  320  sh novscript.sh >>novscript.txt
+  321  pico novscript.sh
+  322  bash novscript.sh
+  323  pico novscript.sh
+  324  bash novscript.sh
+  325  novscript.txt
+  326  sh novscript.sh > novscript.txt
+  327  novscript.txt
+  328  pico novscript.txt
+  329  pico novscript.sh
+  330  bash novscript.sh
+  331  pico novscript.sh
+  332  bash novscript.sh
+  333  HISTFILE=~/.bash_history
+  334  set -o history
+  335  pico novscript.sh
+  336  sh novscript.sh > novscript.txt
+  337  bash novscript.sh
+  338  pico novscript.sh
+  359  ls -l novscript.sh
+  360  chmod ugo+x novscript.sh
+  361  ls -l novscript.sh
+  362  bash  novscript.sh
+  363  ./script.sh
+  364 359  ls -l novscript.sh
+  360  chmod ugo+x novscript.sh
+  361  ls -l novscript.sh
+  362  bash  novscript.sh
+  363  ./script.sh
+  364 339  bash novscript.sh
+  340  pico novscript.sh
+  341  bash novscript.sh
+  342  pico novscript.sh
+  343  bash novscript.sh
+  344  sh novscript.sh > novscript.txt
+  345  novscript.txt
+  346  pico novscript.txt
+  347  history
+  348  echo " "
+  349  history
+  350  echo " "
+  351  pico novscript.sh
+  352  bash  novscript.sh
+  353  ./script.sh
+  354  ./novscript.sh
+  355  /home/marinanikonchuk/novscript.sh
+  356  pico novscript.sh
+  357  ./script.sh
+  358  bash  novscript.sh
+  359  ls -l novscript.sh
+  360  chmod ugo+x novscript.sh
+  361  ls -l novscript.sh
+  362  bash  novscript.sh
+  363  ./script.sh
+  364  /home/marinanikonchuk/novscript.sh
+  365  novscript.sh > novscript.sh
+  366  novscript.sh > novscript.txt
+  367  novscript.sh >> novscript.txt
+  368  pico novscript.txt
+  369  pico novscript.sh
+  370  novscript.sh >> novscript.txt
+  371  bash  novscript.sh
+  372  sh novscript.sh > novscript.txt
+  373  pico novscript.sh
+  374  bash  novscript.sh
+  375  history
+  376  echo " "
+  377  history
+  378  echo " "
+  379  history
+  380  echo " "
+  381  history
+  382  echo " "
+  383  pico script.sh
+  384  bash script.sh
+  385  .bash_history
+  386  pico script.sh
+  387  bash script.sh > marinaNikonchuk.txt
+  388  pico marinaNikonchuk.txt
+  389  bash marinaNikonchuk.txt
+  390  history
+  391  echo " "
+  392  bash script.sh > marinaNikonchuk.txt
+  393  bash marinaNikonchuk.txt
+  394  history
+  395  echo " "
+  396  chmod 777 ./script.sh
+  397  ./script.sh > marinaNikonchuk.txt
+  398  bash marinaNikonchuk.txt
+  399  history
+  400  echo " "
+  401  history
+
